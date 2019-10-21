@@ -2,6 +2,7 @@ from django.db.models import Q
 from django.urls import reverse, reverse_lazy
 from django.shortcuts import get_object_or_404, redirect, render
 from django.utils.http import urlencode
+from django.views.generic.list import MultipleObjectMixin
 from django.views.generic import ListView, DetailView, CreateView, \
     UpdateView, DeleteView, FormView
 from ..forms import ArticleForm, ArticleCommentForm, SimpleSearchForm, FullSearchForm
@@ -170,4 +171,5 @@ class ArticleSearchView(FormView):
         in_comment_text = form.cleaned_data.get('in_comment_text')
         if in_comment_text:
             query = query | Q(comments__text__icontains=text)
+
         return query
