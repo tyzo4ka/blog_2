@@ -1,0 +1,244 @@
+[
+{
+  "model": "webapp.article",
+  "pk": 1,
+  "fields": {
+    "title": "title",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "author": "He",
+    "created_at": "2019-10-21T08:34:46.347Z",
+    "updated_at": "2019-10-21T09:18:16.392Z",
+    "category": null,
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 2,
+  "fields": {
+    "title": "title 2",
+    "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "author": "Me",
+    "created_at": "2019-10-21T08:57:18.998Z",
+    "updated_at": "2019-10-21T08:57:18.998Z",
+    "category": null,
+    "tags": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 3,
+  "fields": {
+    "title": "Excepteur sint",
+    "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+    "author": "Unknown",
+    "created_at": "2019-10-21T09:15:11.408Z",
+    "updated_at": "2019-10-21T09:19:39.845Z",
+    "category": null,
+    "tags": [
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 4,
+  "fields": {
+    "title": "Excepteur sint",
+    "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+    "author": "Unknown",
+    "created_at": "2019-10-21T09:15:17.429Z",
+    "updated_at": "2019-10-21T09:25:14.855Z",
+    "category": null,
+    "tags": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 5,
+  "fields": {
+    "title": "Ipsum",
+    "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "author": "Masha",
+    "created_at": "2019-10-21T11:30:52.939Z",
+    "updated_at": "2019-10-21T11:31:19.748Z",
+    "category": null,
+    "tags": [
+      2,
+      4,
+      9
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 6,
+  "fields": {
+    "title": "inventore vitae dicta",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+    "author": "Petya",
+    "created_at": "2019-10-21T11:32:23.027Z",
+    "updated_at": "2019-10-21T11:32:42.011Z",
+    "category": null,
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 7,
+  "fields": {
+    "title": "ullamco laboris",
+    "text": "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise,",
+    "author": "Vasya",
+    "created_at": "2019-10-21T11:33:33.137Z",
+    "updated_at": "2019-10-21T11:33:33.137Z",
+    "category": null,
+    "tags": [
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 1,
+  "fields": {
+    "article": 1,
+    "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+    "author": "Vasya",
+    "created_at": "2019-10-21T10:54:52.512Z",
+    "updated_at": "2019-10-21T10:54:52.512Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 2,
+  "fields": {
+    "article": 1,
+    "text": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis",
+    "author": "Petya",
+    "created_at": "2019-10-21T10:57:27.421Z",
+    "updated_at": "2019-10-21T10:57:27.421Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 3,
+  "fields": {
+    "article": 1,
+    "text": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+    "author": "Masha",
+    "created_at": "2019-10-21T10:57:43.980Z",
+    "updated_at": "2019-10-21T10:57:43.980Z"
+  }
+},
+{
+  "model": "webapp.tag",
+  "pk": 1,
+  "fields": {
+    "name": "IT",
+    "created_at": "2019-10-21T08:56:21.573Z"
+  }
+},
+{
+  "model": "webapp.tag",
+  "pk": 2,
+  "fields": {
+    "name": "cats",
+    "created_at": "2019-10-21T08:56:27.827Z"
+  }
+},
+{
+  "model": "webapp.tag",
+  "pk": 3,
+  "fields": {
+    "name": "animals",
+    "created_at": "2019-10-21T08:56:31.064Z"
+  }
+},
+{
+  "model": "webapp.tag",
+  "pk": 4,
+  "fields": {
+    "name": "clothing",
+    "created_at": "2019-10-21T08:56:35.008Z"
+  }
+},
+{
+  "model": "webapp.tag",
+  "pk": 5,
+  "fields": {
+    "name": "bags",
+    "created_at": "2019-10-21T08:56:38.057Z"
+  }
+},
+{
+  "model": "webapp.tag",
+  "pk": 6,
+  "fields": {
+    "name": "",
+    "created_at": "2019-10-21T09:15:17.435Z"
+  }
+},
+{
+  "model": "webapp.tag",
+  "pk": 7,
+  "fields": {
+    "name": "1",
+    "created_at": "2019-10-21T09:24:25.841Z"
+  }
+},
+{
+  "model": "webapp.tag",
+  "pk": 8,
+  "fields": {
+    "name": "shoe",
+    "created_at": "2019-10-21T11:30:52.947Z"
+  }
+},
+{
+  "model": "webapp.tag",
+  "pk": 9,
+  "fields": {
+    "name": "shoes",
+    "created_at": "2019-10-21T11:31:19.758Z"
+  }
+},
+{
+  "model": "webapp.tag",
+  "pk": 10,
+  "fields": {
+    "name": "It",
+    "created_at": "2019-10-21T11:32:23.029Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$KUdxtnf9Pxy4$91isd5Lkg2NYa5+h0UXE8dvOq2Ve7YKyGtmX+GilSyw=",
+    "last_login": "2019-10-21T08:56:10.931Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-10-21T08:56:06.729Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

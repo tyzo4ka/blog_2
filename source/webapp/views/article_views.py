@@ -173,3 +173,11 @@ class ArticleSearchView(FormView):
             query = query | Q(comments__text__icontains=text)
 
         return query
+
+
+class ResultListView(ListView):
+    context_object_name = 'articles'
+    model = Article
+    template_name = 'article/article_search_result.html'
+    paginate_by = 1
+    paginate_orphans = 1
