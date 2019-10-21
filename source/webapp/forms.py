@@ -3,6 +3,8 @@ from .models import Article, Comment
 
 
 class ArticleForm(forms.ModelForm):
+    tags = forms.CharField(max_length=20, required=False, label='Тэги')
+
     class Meta:
         model = Article
         exclude = ['created_at', 'updated_at']
